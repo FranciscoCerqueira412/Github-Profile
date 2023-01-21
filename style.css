@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    
+    background-color: #bd4f6c;
+    background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+
+}
+.container {
+    background-color: #3b1d1d2f;
+    width: 800px;
+    height: 150px;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.471);
+    margin: auto;
+    overflow: hidden;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#search{
+    width: 400px;
+    height:50px;
+    padding: 0rem 2rem;
+    border-radius: 30px;
+    color: white;
+    background-color: #0000002f;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.103);
+}
+#search::placeholder{
+    color: white;
+    opacity: 60%;
+}
+#submit{
+    width: 200px;
+    height: 50px;
+    border-radius: 73px;
+    background: #d4701ea6;
+    box-shadow: 15px 15px 30px #2023254d,
+                -15px -15px 30px #2023254e;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+}
+#submit:hover{
+    background-color: rgb(153, 138, 51);
+    box-shadow: 15px 15px 30px #20232583,
+                -15px -15px 30px #20232599;
+}
+input{
+    margin: 50px 2rem;
+    font-size: 2rem; 
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0rem 1rem;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 50vh;
+    width: 200px;
+    height: 200px;
+}
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 3rem;
+    text-align: center;
+}
+.numb{
+    margin: 2rem 4rem;
+    font-size: 6rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+h2{
+    color: rgb(247, 207, 180);
+    font-size: 3rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+p{
+    font-style: italic;
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-size: 1.3rem;
+}
+
+#reposito{
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.repo{
+    padding: 0.8rem;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    display: inline-block;
+    background-color: rgb(92, 64, 28);
+    color: white;
+    border-radius: 20px;
+    text-transform: capitalize;
+
+}
+@media screen and (max-width: 600px){
+input{
+    font-size: 1.5rem;
+}
+#submit{
+    display: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+    
+}
